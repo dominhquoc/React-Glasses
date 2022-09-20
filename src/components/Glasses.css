@@ -1,0 +1,43 @@
+.title-glass{
+    background-color: #1b1919a1;
+    padding: 30px 0;
+    text-align: center;
+}
+.shadow{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.img-Left{
+    position: relative;
+    background-image: url('../glassesImage/model.jpg');
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.render{
+    background-color: white;
+}
+.img-Left img{
+    position: absolute;
+    left: 0;
+    width: 50%;
+    top: 25%;
+    margin: 0 25%;
+    opacity: 0.5;
+}
+
+.text-title{
+    color: blue;
+    margin: 0;
+}
+
+.bg-title-glass{
+    background-color: #ff98008f;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    padding: 8px;
+}
+.btn{
+    padding: 10px;
+}
